@@ -5,19 +5,17 @@ import {
   Apple,
   CalendarDays,
   Dumbbell,
-  Facebook,
   Flower2,
-  Instagram,
+  Globe,
   MapPin,
   Menu,
   MessageCircle,
-  Music,
+  Share2,
   Star,
   User,
   UserRound,
   Users,
   X,
-  Youtube,
 } from "lucide-react";
 
 const ACCENT = "#FF6B00";
@@ -85,7 +83,7 @@ const services = [
   {
     title: "Zumba",
     desc: "High-energy dance cardio that feels like a party, not a workout.",
-    Icon: Music,
+    Icon: Activity,
   },
 ];
 
@@ -1014,13 +1012,13 @@ export default function App() {
           </p>
           <SocialRow>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-              <Instagram size={20} />
+              <Share2 size={20} />
             </a>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-              <Facebook size={20} />
+              <Globe size={20} />
             </a>
             <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-              <Youtube size={20} />
+              <MessageCircle size={20} />
             </a>
           </SocialRow>
         </div>

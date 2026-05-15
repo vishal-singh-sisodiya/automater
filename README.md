@@ -8,3 +8,4 @@ Client demo templates built with React + Vite
 - 💪 PulseZone v2 — Gym (Premium White)
 - 🦷 SmileZone — Dental Clinic
 - ✨ GlowZone — Skin & Hair Clinic
+# redeploy
